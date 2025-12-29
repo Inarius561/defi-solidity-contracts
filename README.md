@@ -1,14 +1,27 @@
 # DeFi Solidity Contracts
 
-Secure, production-style Solidity smart contracts for DeFi and trading.
+Production-oriented Solidity smart contracts focused on DeFi, AMMs,
+and trading systems.
 
-## Features
-- Arbitrage execution
+## Highlights
+- Secure smart contract design
+- Arbitrage & trading logic
 - Reentrancy protection
-- Access control
 - Gas-efficient custom errors
+- Mainnet-ready patterns
 
-## Tech
+## Contracts
+- `ArbitrageExecutor.sol` – DEX arbitrage execution with profit validation
+
+## Tech Stack
 - Solidity ^0.8.x
 - OpenZeppelin
-- Hardhat / Foundry ready
+- Hardhat / Foundry
+
+## Security
+- Checks-effects-interactions pattern
+- Reentrancy protection
+- Strict access control
+
+## Author
+DeFi Solidity Developer
